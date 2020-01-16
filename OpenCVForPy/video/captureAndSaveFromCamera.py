@@ -25,6 +25,7 @@ while(cap.isOpened()):
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
     else:
+        print("None Image")
         break
     
 cap.release()
